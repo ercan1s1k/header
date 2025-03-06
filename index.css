@@ -1,0 +1,132 @@
+            #sf{
+                margin:0; 
+                padding:0;
+                background:#369; 
+                height:70em;
+            }
+            #sf .disDiv{
+                display:block;
+				width:100%;
+                margin:0;
+                padding:0;
+            }
+            #sf .disDiv center{
+                display:inline;
+                margin:0;
+                padding:0;
+            }
+            #sf .disDiv center .ayniLinkler{
+                padding:12px 8px 9px 7.61px;
+                margin:0;
+                display:inline-block;
+				float:left;
+                text-align:center;
+                width:175.1px;
+				cursor:pointer;
+				                           /* YORUM SATIRI : border-radius:12px 50% 12px 50%;  */
+            }
+            #sf .disDiv center #anasayfa{
+                background:black;
+                color:blue;
+                border:1px solid blue;
+            }            
+            #sf .disDiv center #anasayfa:hover{
+                background:blue !important;
+                border:1px solid blue !important;
+            }
+			#sf .disDiv center #anasayfa:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #son_dakika{
+                background:black;
+                color:red;
+                border:1px solid red;
+            }
+            #sf .disDiv center #son_dakika:hover{
+                background:red !important;
+                border:1px solid red !important;
+            }
+			#sf .disDiv center #son_dakika:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #yerel_haberler{
+                background:black;
+				color:orange;
+                border:1px solid orange;
+            }
+            #sf .disDiv center #yerel_haberler:hover{
+                background:orange !important;
+                border:1px solid orange !important;
+            }
+			#sf .disDiv center #yerel_haberler:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #dis_basin{
+                background:black;
+                color:green;
+                border:1px solid green;
+            }
+            #sf .disDiv center #dis_basin:hover{
+                background:green !important;
+                border:1px solid green !important;
+            }
+			#sf .disDiv center #dis_basin:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #hakkimizda{
+                background:black;
+                color:yellow;
+                border:1px solid yellow;
+            }
+            #sf .disDiv center #hakkimizda:hover{
+                background:yellow !important;
+                border:1px solid yellow !important;
+            }
+			#sf .disDiv center #hakkimizda:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #iletisim{
+                background:black;
+                color:aqua;
+                border:1px solid aqua;
+            }
+            #sf .disDiv center #iletisim:hover{
+                background:aqua !important;
+                border:1px solid aqua !important;
+            }
+			#sf .disDiv center #iletisim:hover span{
+                color:black !important;
+            }
+            #sf .disDiv center #siteye_giris{
+                background:black;
+                color:white;
+                border:1px solid white;
+            }
+            #sf .disDiv center #siteye_giris:hover{
+				background:white  !important;
+                border:1px solid white  !important;
+                transition:background 5sn ease-in;
+            }
+			#sf .disDiv center #siteye_giris:hover span{
+				color:black !important;
+            }
+            #sf .disDiv center .ayniLinkler span{
+				margin:0;
+                padding:0;
+                text-align:center;
+                font-weight:900;
+                font-size:18px;
+                font-family:Josefin Sans;
+            }
+			/*Menü İçin Animasyon Ayarı: */
+			@keyframes forTextOfMenu{
+				0%{letter-spacing:0.5; color:black;border:}
+				25%{letter-spacing:1px; color:magenta;}
+				50%{letter-spacing:2px; color:black;}
+				75%{letter-spacing:3px; color:magenta;}
+				100%{BUNUSİLME letter-spacing:4px; color:black;}
+			}
+            #sf .disDiv center .ayniLinkler:hover span{
+                color:white;
+                cursor:pointer;
+            }
